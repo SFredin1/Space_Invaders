@@ -8,7 +8,7 @@ from gymnasium.wrappers.atari_preprocessing import AtariPreprocessing
 gym.register_envs(ale_py)
 
 # Path to trained model
-model_file = 'Lab_Space-Invaders/Breakout_q_model_solved.keras'
+model_file = 'Lab_Space-Invaders/Space-Invaders_q_model_solved.keras'
 agent = keras.models.load_model(model_file)
 
 # Set up Atari environment
