@@ -12,12 +12,14 @@ This project demonstrates the use of Deep Q-Learning to train an AI agent to pla
 
 ## Files
 1. space_invaders.py
+
 This python script loads a pre-trained Deep Q-Learning model and uses it to play the game. The key functionalitys are:
 * Loading the trained model (in this case "Space-Invaders_q_model170.keras").
 * Initializing the "SpaceInvadersNoFrameskip-v4" enviroment with preprocessing (grayscale conversion and frame stacking).
 * Visualizing the agents performance with rendered gameplay.
 
 2. space_invaders.ipynb
+
 This Jupyter Notebook contains step-by-step implementation details for training the Deep Q-Learning agent. The key sections are:
 * Enviroment setup: Defining a convolutional neural network for Q-Learning
 * Training loop: Training the agent using replay memory and epsilon-greedy exploration.
